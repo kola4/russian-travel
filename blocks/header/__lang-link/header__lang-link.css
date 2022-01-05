@@ -4,13 +4,11 @@
   line-height: 28px;
   font-size: 24px;
   color: #FFFFFF;
-
   transition: 0.5s ease-in-out;
-  box-sizing: border-box;
 }
 
 .header__lang-link:hover {
-  color: #696f79;
+  color: #DADADA;
   opacity: 0.8;
 }
 
@@ -18,4 +16,15 @@
   min-width: 29px;
   margin-left: 18px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    min-width: 22px;
+    line-height: 20px;
+    font-size: 18px;
+  }
+  .header__lang-link:last-child {
+    min-width: 22px;
+  }
 }

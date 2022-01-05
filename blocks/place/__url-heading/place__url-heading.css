@@ -6,3 +6,11 @@
   letter-spacing: 2px;
   margin: 12px 0;
 }
+
+@media screen and (max-width: 767px) {
+  .place__url-heading {
+    padding: 0 16px 12px;
+    margin: 0;
+    max-width: 288px;
+  }
+}

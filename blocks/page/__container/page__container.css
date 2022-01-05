@@ -2,7 +2,12 @@
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
-  /*text-align: center;*/
   padding: 28px 48px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__container {
+    padding: 0;
+  }
 }
