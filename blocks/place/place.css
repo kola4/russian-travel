@@ -10,14 +10,14 @@
   margin: 0 0 80px;
 }
 
+.place:last-child {
+  margin: 0;
+}
+
 @media screen and (max-width: 1279px) {
   .place {
     grid-template-columns: 440px auto;
     column-gap: 32px;
-  }
-
-  .place:last-child {
-    margin: 0;
   }
 }
 
@@ -27,11 +27,7 @@
     слово "Коса" на другую строку, в макете всё перепроверил, решил минимально уменьшить ячейку. Эту проблему можно
     так же решить увеличением шрифта в __title на 2px.*/
     column-gap: 28px;
-    margin: 0 24px 73px;
-  }
-
-  .place:last-child {
-    margin: 0 24px 0;
+    margin: 0 0 73px;
   }
 }
 
