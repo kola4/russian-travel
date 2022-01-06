@@ -1,7 +1,8 @@
 # Проект: Путешествие по России
 
 **Сайт**
-[Путешествие по России](https://kola4.github.io/russian-travel/index.html)
+
+* [Путешествие по России](https://kola4.github.io/russian-travel/index.html)
 
 ### В проекте реализовано
 * верстка с использованием flex-элементов
