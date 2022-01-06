@@ -25,6 +25,6 @@
     grid-template-columns: 288px;
     justify-content: center;
     gap: 12px;
-    margin: 64px 16px;
+    margin: 64px 16px 14px;
   }
 }

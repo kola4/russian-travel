@@ -4,5 +4,4 @@
   min-width: 320px;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(320px, 984px));
-
 }
