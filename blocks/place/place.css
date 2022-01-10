@@ -23,9 +23,7 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    grid-template-columns: calc(340px - 1.32%) auto; /*К сожалению не разобрался, почему в заголовке не переносилось
-    слово "Коса" на другую строку, в макете всё перепроверил, решил минимально уменьшить ячейку. Эту проблему можно
-    так же решить увеличением шрифта в __title на 2px.*/
+    grid-template-columns: 340px auto;
     column-gap: 28px;
     margin: 0 0 73px;
   }
