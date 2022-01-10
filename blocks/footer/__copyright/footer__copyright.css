@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 767px) {
   .footer__copyright {
-  margin-left: 0;
-  line-height: 14px;
+    margin-left: 0;
+    line-height: 14px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .footer__copyright {
-  align-self: flex-start;
+    align-self: flex-start;
   }
 }
